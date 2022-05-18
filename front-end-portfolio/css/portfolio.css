@@ -27,16 +27,47 @@ header {
 
 nav ul li a {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
+
+nav ul li a:hover {
+    color: black;
+}
+
 
 nav ul li {
     list-style-type: none;
     margin-right: 2.5rem;
+    margin-top: 0.4rem;
 }
 
-.social-links a {
-    margin-right: 1rem;
 
+.social-links {
+    display: flex;
+    margin-left: 4rem;
+    
+
+}
+
+.social-links li {
+    list-style-type: none;
+    
+
+}
+
+.git-img {
+    margin-left: -0.7rem;
+}
+
+.linked-img {
+    margin-left: 1rem;
+}
+
+.social-links li a {
+    
 }
 
 .section0 {
