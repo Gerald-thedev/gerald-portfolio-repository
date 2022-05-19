@@ -19,13 +19,11 @@ body {
 
 
 
-header {
-    border: 1px solid black;
+nav {
     background-color: red;
-    
 }
 
-nav ul li a {
+div ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -33,16 +31,16 @@ nav ul li a {
     
 }
 
-nav ul li a:hover {
+div ul li a:hover {
     color: black;
 }
 
-nav ul li a:active {
+div ul li a:active {
     color: white;
 }
 
 
-nav ul li {
+.navigation ul li {
     list-style-type: none;
     margin-right: 2.5rem;
     margin-top: 0.4rem;
@@ -51,7 +49,13 @@ nav ul li {
 
 .social-links {
     display: flex;
-    margin-left: 4rem;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin: 0.4rem auto;
+    position: relative;
+    right: 1.2rem;
+    top: -0.2rem;
+
     
 
 }
@@ -66,10 +70,7 @@ nav ul li {
     transition-delay: 0.1s;
     transition-duration: 0.4s;
     max-width: 100%;
-    height: auto;
-    width: 2rem;
-    border: 1px solid black;
-    
+    height: auto;  
 } 
 
 .social-img:hover {
@@ -77,12 +78,12 @@ nav ul li {
 }
 
 .git-img {
-    margin-left: -0.7rem;
-    width: 3rem;
+    /* margin-left: -0.7rem; */
+    /* width: 3rem; */
 }
 
 .linked-img {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 
