@@ -103,6 +103,59 @@ div ul li a:active {
     color: white;
 }
 
+.sec-0 .front-end {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-name: front-end;
+    animation-duration: 0.8s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes front-end {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(20px);
+    }
+}
+
+.sec-0 .web-d {
+    animation-name: web-dev;
+    animation-duration: 0.8s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+    text-transform: uppercase;
+}
+@keyframes web-dev {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
+.name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.profile-img {
+    animation-name: gerald-img;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function:cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+@keyframes gerald-img {
+    0% {
+        transform: rotateX(360deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+
 .sec-0 > a {
     color: red;
     text-decoration: none;
@@ -129,21 +182,21 @@ div ul li a:active {
 }
 
 .projects-btn {
-    border: 2px solid black;
-    width: 6rem;
+    border: 2px solid white;
+    width: 4rem;
     height: 3rem;
-    padding: 0.4rem 1rem;
+    padding: 0.4rem 0.8rem;
     margin: 4rem auto;
-    box-shadow: 2px 2px 10px 1px white;
+    /* box-shadow: 2px 2px 10px 1px white; */
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: red;
-    background-color: white;
+    color: black;
+    background-color: red;
     font-weight: bold;
 
 }
 .projects-btn:hover {
-    background-color: black;
+    box-shadow: 2px 2px 10px 1px black;
     border: 2px solid white;
     cursor: pointer;
 }
@@ -154,7 +207,7 @@ div ul li a:active {
     width: fit-content;
     height: auto;
     margin: 1.5rem auto;
-    padding: 0.4rem 1rem;
+    /* padding: 0.4rem 1rem; */
     /* margin-top: 1.2rem;
     margin-bottom: 1.5rem; */
     transition-delay: 0.1s;
