@@ -19,7 +19,7 @@ body {
 }
 
 
-
+/* This is the nav section of the page (Mobile view - 320px) */
 nav {
     background-color: red;
 }
@@ -28,8 +28,7 @@ div ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
 div ul li a:hover {
@@ -40,13 +39,11 @@ div ul li a:active {
     color: white;
 }
 
-
 .navigation ul li {
     list-style-type: none;
     margin-right: 2.5rem;
     margin-top: 0.4rem;
 }
-
 
 .social-links {
     display: flex;
@@ -56,15 +53,10 @@ div ul li a:active {
     position: relative;
     right: 1.2rem;
     top: -0.2rem;
-
-    
-
 }
 
 .social-links li {
     list-style-type: none;
-    
-
 }
 
 .social-img {
@@ -78,21 +70,7 @@ div ul li a:active {
     transform: scale(1.2);
 }
 
-.git-img {
-    /* margin-left: -0.7rem; */
-    /* width: 3rem; */
-}
-
-.linked-img {
-    /* margin-left: 1rem; */
-}
-
-
-
-.social-links li a {
-    
-}
-
+/* This is the home page section for mobile view(320px) */
 .sec-0 {
     background-image: url("/images/windowsbg.jpg");
     max-width: 100%;
@@ -103,6 +81,7 @@ div ul li a:active {
     color: white;
 }
 
+/* Animation for homepage title */
 .sec-0 .front-end {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     animation-name: front-end;
@@ -119,6 +98,7 @@ div ul li a:active {
     }
 }
 
+/* Animation for Web design and development */
 .sec-0 .web-d {
     animation-name: web-dev;
     animation-duration: 0.8s;
@@ -140,6 +120,7 @@ div ul li a:active {
     font-weight: bold;
 }
 
+/* Animation for my profile picture */
 .profile-img {
     animation-name: gerald-img;
     animation-duration: 1s;
@@ -155,20 +136,20 @@ div ul li a:active {
     }
 }
 
-
+/* Projects button */
 .sec-0 > a {
     color: red;
     text-decoration: none;
     font-size: 1.1rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-
 }
 
 .sec-0 a div {
     max-width: 1rem;
 }
 
+/* Profile picture */
 .profile-img {
     max-width: 100%;
     height: 6rem;
@@ -181,19 +162,18 @@ div ul li a:active {
     margin: auto;
 }
 
+/* Projects button */
 .projects-btn {
     border: 2px solid white;
     width: 4rem;
     height: 3rem;
     padding: 0.4rem 0.8rem;
     margin: 4rem auto;
-    /* box-shadow: 2px 2px 10px 1px white; */
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
     background-color: red;
     font-weight: bold;
-
 }
 .projects-btn:hover {
     box-shadow: 2px 2px 10px 1px black;
@@ -207,20 +187,15 @@ div ul li a:active {
     width: fit-content;
     height: auto;
     margin: 1.5rem auto;
-    /* padding: 0.4rem 1rem; */
-    /* margin-top: 1.2rem;
-    margin-bottom: 1.5rem; */
     transition-delay: 0.1s;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
 }
-
 .pro-btn:hover {
-    transform: scale(1.1);
-    
-    
+    transform: scale(1.1); 
 }
 
+/* Skills section page, mobile view (320px) */
 .section1 {
     background-color: yellow;
 }
@@ -229,10 +204,12 @@ div ul li a:active {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Projects page, mobile view (320px) */
 .section2 {
     background-color: white;
 }
 
+/* Contact section page mobile view (320px) */
 footer {
     background-color: black;
 }
